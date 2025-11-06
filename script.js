@@ -790,7 +790,7 @@ async function saveData() {
     }
 
     try {
-        const response = await fetch("https://script.google.com/macros/s/AKfycbz6MSvAqN2vhsasQ-fK_2hxgOkeue3zlc5TsfyLISX8VydruDi5CdTsDgmyPXozv3SB/exec", {
+        const response = await fetch("https://script.google.com/macros/s/AKfycbyci5w5xeGAPaSLFEXRt3l0wnURZVfGcNhX4niQd8DrJNX5b5hUasOaVAvNEsNUQdDCow/exec", {
             method: "POST",
             body: JSON.stringify(dataToSend),
         });
@@ -1380,3 +1380,4 @@ Apabila terdapat kendala teknis, silakan hubungi nomor berikut: 088972745194.`
         }
     }
 });
+
